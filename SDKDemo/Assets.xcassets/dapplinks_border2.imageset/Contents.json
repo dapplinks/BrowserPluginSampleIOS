@@ -11,12 +11,12 @@
         "cap-insets" : {
           "bottom" : 28,
           "top" : 28,
-          "right" : 31,
+          "right" : 28,
           "left" : 28
         }
       },
       "idiom" : "universal",
-      "filename" : "linkto_border2.png",
+      "filename" : "dapplinks_border2.png",
       "scale" : "1x"
     },
     {

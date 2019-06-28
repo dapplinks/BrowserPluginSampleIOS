@@ -5,18 +5,18 @@
         "mode" : "9-part",
         "center" : {
           "mode" : "tile",
-          "width" : 2,
-          "height" : 2
+          "width" : 1,
+          "height" : 1
         },
         "cap-insets" : {
-          "bottom" : 10,
-          "top" : 11,
+          "bottom" : 22,
+          "top" : 21,
           "right" : 10,
           "left" : 10
         }
       },
       "idiom" : "universal",
-      "filename" : "linkto_btn2.png",
+      "filename" : "dapplinks_btn1.png",
       "scale" : "1x"
     },
     {

@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray<NSString*>* actions;
 @property (nonatomic, copy) NSString* from;
 @property (nonatomic, copy) NSString* options;
+@property (nonatomic, strong) NSDictionary* payload;
 
 @end
 

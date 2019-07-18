@@ -5,10 +5,11 @@ DAppLinks浏览器插件的iOS示例工程。
 
 ## 相关文件
 
-testsdk.framework
-testsdkBundle.bundle
+dappxsdk.framework
+dappxsdkBundle.bundle
 MODAppSDK.framework
 TPSDK.framework
+SCIOSTSDK.framework
 
 放置于工程目录下
 
@@ -20,13 +21,13 @@ TPSDK.framework
 
 设置info 为工程设置scheme
 
-设置info 加入跳转外部: LSApplicationQueriesSchemes -> tpoutside和meetone
+设置info 加入跳转外部: LSApplicationQueriesSchemes -> tpoutside、meetone以及sciostwallet
 
 ##
 
 ## 修改WKWebView所在控制器
 
-引入<testsdk/testsdk.h>
+引入<dappxsdk/dappxsdk.h>
 
 添加协议 WKScriptMessageHandler
   
@@ -77,4 +78,5 @@ if ([message.name isEqualToString:@"callFunction"]) {
 ~~~
 [params.enabledWallets addObject:@"TokenPocket"];
 [params.enabledWallets addObject:@"MeetOne"];
+[params.enabledWallets addObject:@"ShineChain"];
 ~~~

@@ -1,0 +1,6 @@
+framework module dappxsdk {
+  umbrella header "dappxsdk.h"
+
+  export *
+  module * { export * }
+}

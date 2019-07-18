@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <testsdk/testsdk.h>
+#import <dappxsdk/dappxsdk.h>
 @interface AppDelegate ()
 
 @end

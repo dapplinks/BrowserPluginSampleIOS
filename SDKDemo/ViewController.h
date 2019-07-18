@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <testsdk/testsdk.h>
+#import <dappxsdk/dappxsdk.h>
 
 @interface ViewController : UIViewController <WKUIDelegate, WKNavigationDelegate, WKScriptMessageHandler>
 

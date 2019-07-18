@@ -1,6 +1,6 @@
 //
-//  testsdk.h
-//  testsdk
+//  dappxsdk.h
+//  dappxsdk
 //
 //  Created by coolman on 2019/6/10.
 //  Copyright © 2019 mylove39. All rights reserved.
@@ -16,12 +16,12 @@ FOUNDATION_EXPORT const unsigned char testsdkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <testsdk/PublicHeader.h>
 //#import <testsdk/SDKDemoViewController.h>
-#import <testsdk/DappXListener.h>
-#import <testsdk/DappXManager.h>
-#import <testsdk/DappXBridge.h>
-#import <testsdk/BaseParams.h>
-#import <testsdk/AuthParams.h>
-#import <testsdk/SelectParams.h>
-#import <testsdk/TransactionParams.h>
-#import <testsdk/TransferParams.h>
-#import <testsdk/SignParams.h>
+#import <dappxsdk/DappXListener.h>
+#import <dappxsdk/DappXManager.h>
+#import <dappxsdk/DappXBridge.h>
+#import <dappxsdk/BaseParams.h>
+#import <dappxsdk/AuthParams.h>
+#import <dappxsdk/SelectParams.h>
+#import <dappxsdk/TransactionParams.h>
+#import <dappxsdk/TransferParams.h>
+#import <dappxsdk/SignParams.h>

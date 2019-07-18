@@ -13,11 +13,11 @@
 		FD9F8E9A22BA0819001FC71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9F8E9822BA0819001FC71A /* LaunchScreen.storyboard */; };
 		FD9F8E9D22BA0819001FC71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9F8E9C22BA0819001FC71A /* main.m */; };
 		FD9F8EAA22BA08A3001FC71A /* MODAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9F8EA622BA08A3001FC71A /* MODAppSDK.framework */; };
-		FD9F8EAB22BA08A3001FC71A /* testsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9F8EA722BA08A3001FC71A /* testsdk.framework */; };
 		FD9F8EAC22BA08A3001FC71A /* TPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9F8EA822BA08A3001FC71A /* TPSDK.framework */; };
 		FD9F8EAE22BA0A29001FC71A /* MODAppSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9F8EA622BA08A3001FC71A /* MODAppSDK.framework */; };
 		FD9F8EAF22BA0A29001FC71A /* MODAppSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FD9F8EA622BA08A3001FC71A /* MODAppSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FDF27FBC22D76C9D0064AB5B /* testsdkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDF27FBB22D76C9D0064AB5B /* testsdkBundle.bundle */; };
+		FDD5F27B22E0877B00FF5ACF /* dappxsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5F27922E0877B00FF5ACF /* dappxsdk.framework */; };
+		FDD5F27C22E0877B00FF5ACF /* dappxsdkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDD5F27A22E0877B00FF5ACF /* dappxsdkBundle.bundle */; };
 		FDF27FBE22D76CD80064AB5B /* SCIOSTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF27FBD22D76CD70064AB5B /* SCIOSTSDK.framework */; };
 		FDF27FC222D779710064AB5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF27FC122D779700064AB5B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -47,9 +47,9 @@
 		FD9F8E9B22BA0819001FC71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9F8E9C22BA0819001FC71A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD9F8EA622BA08A3001FC71A /* MODAppSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MODAppSDK.framework; sourceTree = "<group>"; };
-		FD9F8EA722BA08A3001FC71A /* testsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = testsdk.framework; sourceTree = "<group>"; };
 		FD9F8EA822BA08A3001FC71A /* TPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TPSDK.framework; sourceTree = "<group>"; };
-		FDF27FBB22D76C9D0064AB5B /* testsdkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = testsdkBundle.bundle; sourceTree = "<group>"; };
+		FDD5F27922E0877B00FF5ACF /* dappxsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = dappxsdk.framework; sourceTree = "<group>"; };
+		FDD5F27A22E0877B00FF5ACF /* dappxsdkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = dappxsdkBundle.bundle; sourceTree = "<group>"; };
 		FDF27FBD22D76CD70064AB5B /* SCIOSTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCIOSTSDK.framework; sourceTree = "<group>"; };
 		FDF27FC122D779700064AB5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,9 +60,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9F8EAA22BA08A3001FC71A /* MODAppSDK.framework in Frameworks */,
-				FD9F8EAB22BA08A3001FC71A /* testsdk.framework in Frameworks */,
 				FD9F8EAE22BA0A29001FC71A /* MODAppSDK.framework in Frameworks */,
 				FD9F8EAC22BA08A3001FC71A /* TPSDK.framework in Frameworks */,
+				FDD5F27B22E0877B00FF5ACF /* dappxsdk.framework in Frameworks */,
 				FDF27FBE22D76CD80064AB5B /* SCIOSTSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,10 +106,10 @@
 		FD9F8EA522BA0876001FC71A /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDD5F27922E0877B00FF5ACF /* dappxsdk.framework */,
+				FDD5F27A22E0877B00FF5ACF /* dappxsdkBundle.bundle */,
 				FDF27FBD22D76CD70064AB5B /* SCIOSTSDK.framework */,
-				FDF27FBB22D76C9D0064AB5B /* testsdkBundle.bundle */,
 				FD9F8EA622BA08A3001FC71A /* MODAppSDK.framework */,
-				FD9F8EA722BA08A3001FC71A /* testsdk.framework */,
 				FD9F8EA822BA08A3001FC71A /* TPSDK.framework */,
 			);
 			path = frameworks;
@@ -173,9 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDF27FBC22D76C9D0064AB5B /* testsdkBundle.bundle in Resources */,
 				FD9F8E9A22BA0819001FC71A /* LaunchScreen.storyboard in Resources */,
 				FDF27FC222D779710064AB5B /* Assets.xcassets in Resources */,
+				FDD5F27C22E0877B00FF5ACF /* dappxsdkBundle.bundle in Resources */,
 				FD9F8E9522BA0819001FC71A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

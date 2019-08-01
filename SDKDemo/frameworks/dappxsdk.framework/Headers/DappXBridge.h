@@ -45,6 +45,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)transfer:(NSString*)params callback: (DappXCallback)listener;
 -(void)transaction:(NSString*)params callback: (DappXCallback)listener;
 -(void)sign:(NSString*)params callback: (DappXCallback)listener;
+-(void)showSimpleDialog:(NSString*)params callback: (DappXCallback)listener;
+-(void)showToast:(NSString*)params callback: (DappXCallback)listener;
 #pragma mark -
 
 @end

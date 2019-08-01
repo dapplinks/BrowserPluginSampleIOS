@@ -25,6 +25,7 @@ static NSString* ACTION_SIGN = @"sign";
 static NSString* BLOCK_CHAIN_EOS = @"EOS";
 static NSString* BLOCK_CHAIN_BOS = @"BOS";
 static NSString* BLOCK_CHAIN_IOST = @"IOST";
+static NSString* BLOCK_CHAIN_TRON = @"TRON";
 static NSString* KEY_ACCOUNT = @"account";
 static NSString* KEY_REF = @"ref";
 static NSString* KEY_TIME_STAMP = @"timestamp";

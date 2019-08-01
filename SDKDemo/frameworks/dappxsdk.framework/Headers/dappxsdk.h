@@ -8,14 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for testsdk.
-FOUNDATION_EXPORT double testsdkVersionNumber;
+//! Project version number for dappxsdk.
+FOUNDATION_EXPORT double dappxsdkVersionNumber;
 
-//! Project version string for testsdk.
-FOUNDATION_EXPORT const unsigned char testsdkVersionString[];
+//! Project version string for dappxsdk.
+FOUNDATION_EXPORT const unsigned char dappxsdkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <testsdk/PublicHeader.h>
-//#import <testsdk/SDKDemoViewController.h>
+// In this header, you should import all the public headers of your framework using statements like #import <dappxsdk/PublicHeader.h>
 #import <dappxsdk/DappXListener.h>
 #import <dappxsdk/DappXManager.h>
 #import <dappxsdk/DappXBridge.h>

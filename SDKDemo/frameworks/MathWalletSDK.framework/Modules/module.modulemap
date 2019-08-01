@@ -1,0 +1,6 @@
+framework module MathWalletSDK {
+  umbrella header "MathWalletSDK.h"
+
+  export *
+  module * { export * }
+}

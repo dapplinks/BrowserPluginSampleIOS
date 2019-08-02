@@ -9,7 +9,7 @@ dappxsdk.framework
 dappxsdkBundle.bundle
 MODAppSDK.framework
 TPSDK.framework
-SCIOSTSDK.framework
+MathWalletSDK.framework
 
 放置于工程目录下
 
@@ -78,5 +78,5 @@ if ([message.name isEqualToString:@"callFunction"]) {
 ~~~
 [params.enabledWallets addObject:@"TokenPocket"];
 [params.enabledWallets addObject:@"MeetOne"];
-[params.enabledWallets addObject:@"ShineChain"];
+[params.enabledWallets addObject:@"MathWallet"];
 ~~~

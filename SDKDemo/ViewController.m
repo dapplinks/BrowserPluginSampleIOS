@@ -58,7 +58,7 @@
     // 与webview UI交互代理
     self.webView.UIDelegate = self;
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://betdice.one/"]]];
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://big.game/"]]];
     //    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://111.231.232.54/test/index2.jsp"]]];
     //    NSURL *path = [[NSBundle mainBundle] URLForResource:@"test" withExtension:@"html"];
     //    [self.webView loadRequest:[NSURLRequest requestWithURL:path]];
